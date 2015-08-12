@@ -1,0 +1,6 @@
+1、将mybatis-generator.jar，jdbc连接jar（例如：mysql-connector-java-5.1.6-bin.jar）导入项目。
+
+2、将generatorConfig.xml放在项目路径的src下（Maven项目默认加载src/main/resources路径下），根据实际情况配置generatorConfig.xml。
+
+3、调用MyBatisGeneratorMain.generate()
+或者MyBatisGeneratorMain.generate(generatorConfig.xml的路径+generatorConfig.xml)。
